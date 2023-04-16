@@ -1,0 +1,32 @@
+{
+  "name": "examenautomation_wilsonvillanueva",
+  "version": "1.0.0",
+  "description": "Examen Automatizacion Culqi",
+  "main": "index.js",
+  "scripts": {
+    "test": "runner"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wilsonray/ExamenAutomation_WilsonVillanueva.git"
+  },
+  "keywords": [
+    "cypress",
+    "javascript",
+    "cucumber"
+  ],
+  "author": "Wilson Ray Villanueva Huamán",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wilsonray/ExamenAutomation_WilsonVillanueva/issues"
+  },
+  "homepage": "https://github.com/wilsonray/ExamenAutomation_WilsonVillanueva#readme",
+  "devDependencies": {
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "cypress": "^12.9.0",
+    "esbuild": "^0.17.16"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^16.0.3"
+  }
+}
