@@ -1,6 +1,6 @@
 # ExamenAutomation_WilsonVillanueva
 
-This is the project about the validation of the **https://www.automationexercise.com/** web which is tested (BDD) with frontend automation using Cypress + Cucumber (Gherking language). <br />
+This is the project about the validation of the **https://www.automationexercise.com/** web which is tested (BDD) with frontend automation using Cypress + Cucumber (Gherkin language). <br />
 **IMPORTANT**: It is necessary to modify the email used for the signup test case, since once an email is used it cannot be used again to register.
 
 ## Getting Started
