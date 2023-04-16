@@ -6,33 +6,33 @@
         "description": "",
         "id": "login-page;successful-login",
         "keyword": "Scenario",
-        "line": 5,
+        "line": 6,
         "name": "Successful Login",
         "steps": [
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 6,
+            "line": 5,
             "name": "A user goes to the login page",
             "match": {
               "location": "not available:0"
             },
             "result": {
               "status": "passed",
-              "duration": 4675000000
+              "duration": 3548000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 7,
-            "name": "A user enter their email \"blurn96@gmail.com\" and password \"roflmao25\" and clicks login button",
+            "name": "A user enters their email \"blurn96@gmail.com\" and password \"roflmao25\" and clicks login button",
             "match": {
               "location": "not available:0"
             },
             "result": {
               "status": "passed",
-              "duration": 9596000000
+              "duration": 8298000000
             }
           },
           {
@@ -45,7 +45,57 @@
             },
             "result": {
               "status": "passed",
-              "duration": 17000000
+              "duration": 52000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-page;incorrect-login",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Incorrect Login",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "A user goes to the login page",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1232000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "A user enters an unregistered email \"testwrong@gmail.com\" and password \"wrong\" and clicks login button",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2568000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "A message saying \"Your email or password is incorrect!\" should appear and user will NOT be logged in",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 45000000
             }
           }
         ],
@@ -80,20 +130,20 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3328000000
+              "duration": 3810000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 7,
-            "name": "A user enters a new username \"new test user\" and email \"emailtest13@gmail.com\" and clicks signup button",
+            "name": "A user enters a new username \"new test user\" and email \"emailtest17@gmail.com\" and clicks signup button",
             "match": {
               "location": "not available:0"
             },
             "result": {
               "status": "passed",
-              "duration": 3402000000
+              "duration": 2632000000
             }
           },
           {
@@ -106,7 +156,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 28000000
+              "duration": 45000000
             }
           },
           {
@@ -119,7 +169,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 9704000000
+              "duration": 8911000000
             }
           },
           {
@@ -132,7 +182,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 26000000
+              "duration": 58000000
             }
           },
           {
@@ -145,7 +195,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 7402000000
+              "duration": 6122000000
             }
           }
         ],

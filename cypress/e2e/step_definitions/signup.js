@@ -45,4 +45,5 @@ Then('The user has created their account', ()=>{
 
 Then('The user clicks continue button', ()=>{
     cy.get("a[data-qa='continue-button']").click()
+    cy.get("b").contains("new test user")
 })
