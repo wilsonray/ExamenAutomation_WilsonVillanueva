@@ -1,1 +1,2 @@
-# Checkout Develop branch https://github.com/wilsonray/ExamenAutomation_WilsonVillanueva/tree/develop
+# ExamenAutomation_WilsonVillanueva
+[Contribution guidelines for this project](develop)
